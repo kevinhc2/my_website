@@ -49,24 +49,6 @@ body {
   margin: 0 8px;
 }
 
-/* .img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-container a {
-  display: flex;            
-  justify-content: center;   
-  align-items: center;
-  height: auto;
-}
-
-.img-container a img {
-  object-fit: contain;         
-  display: block;             
-} */
-
 .img-container {
   display: flex;
   justify-content: center;   /* center them as a group */
