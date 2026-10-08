@@ -14,10 +14,10 @@
         <div class="center-box">
             <div class="top-row">
                 <div class="top-left">
-                    <img src="images/IMG_3947.jpg" alt="Profile" class="profile-img" width="75" height="75">
+                    <img src="images/IMG_3947.jpg" alt="Profile" class="profile-img" width="90" height="90">
                     <div>
                         <h2>Kevin Chong</h2>
-                        <p>SDE Intern @ Amazon</p>
+                        <p>Software Engineer</p>
                     </div>
                 </div>
                 <div class="top-right">
@@ -30,49 +30,88 @@
             </div>
             <div>
                 <h4>About Me</h4> 
-                <p>I'm a senior at the University of Maryland, studying computer
-                    science with a concentration in machine learning. My interest is in AI/ML, backend, and DevOps. 
-                    I was a Data Intern at Visalaw.ai, where I streamlined LLM dataset curation 
-                    by engineering an automated data ingestion workflow in Python. My most recent role 
-                    was as a SWE Intern on the DevSecOps team @ Knack Works, where I gained experience with Kubernetes, 
-                    CI/CD, and the Rust programming language. Other than coding, I'm interested in basketball, 
-                    traveling, and science fiction novels. </p>
-                <ul>
-                    <li>Building AI-powered security software as an SDE Intern @ Amazon Security (AmSec)</li>
-                    <li>Prev Software Engineer Intern @ Knack Works</li>
-                    <li>Prev. Machine Learning Lead for ADC @ UMD MITRE team</li>
-                    <li>Prev. Machine Learning Undergrad Research Assistant</li>
+                <ul class="about-list">
+                    <li>BSc in Computer Science and Machine Learning from the University of Maryland, College Park</li>
+                    <li>2x Software Engineering Intern, most recently with Amazon</li>
+                    <li>Interested in full-stack dev, systems programming, and AI engineering</li>
                 </ul>
             </div>
             <div class="wrapper">
-                <h4>Interests:</h4>
+                <h4>Previous Work</h4>
                 <div class="container">
                     <div class="holographic-container">
                         <div class="holographic-card">
-                            <h4>&#129302; AI/ML</h4>
-                            <p>Prev. ML Tech Lead in App Dev Club @ UMD,
-                                working with MITRE to build an AI tool for malware analysis. 
-                            </p>
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <img class="company-logo" src="images/amazon.png" alt="Amazon logo">
+                                    <div>
+                                        <h4>Amazon</h4>
+                                        <p class="card-role">SDE Intern &middot; Jun &ndash; Aug 2026 &middot; Arlington, VA</p>
+                                    </div>
+                                </div>
+                                <ul class="card-points">
+                                    <li>Migrated an internal inventory tool to a multi-agent platform (Bedrock AgentCore + OpenSearch), improving vulnerability mitigation for 10,000+ applications.</li>
+                                    <li>Scaled daily data-sensitivity classification to thousands of requests with a serverless Lambda, SQS, and SNS pipeline.</li>
+                                    <li>Cut chatbot first-token latency 85% (20s &rarr; 3s) with an AgentCore HTTP SSE gateway; raised user satisfaction 49% via a React UI.</li>
+                                </ul>
+                                <p class="card-tech">Bedrock AgentCore &middot; OpenSearch &middot; Lambda &middot; SQS &middot; SNS &middot; React</p>
+                            </div>
                         </div>
                     </div>
                     <div class="holographic-container">
                         <div class="holographic-card">
-                            <h4>&#128297; Backend </h4>
-                            <p>FastAPI, Flask, MongoDB, MySQL</p>
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <img class="company-logo" src="images/knackworks.png" alt="Knack Works logo">
+                                    <div>
+                                        <h4>Knack Works</h4>
+                                        <p class="card-role">Software Engineer Intern &middot; May &ndash; Aug 2025 &middot; Chantilly, VA</p>
+                                    </div>
+                                </div>
+                                <ul class="card-points">
+                                    <li>Built a Rust CLI that batches package requests and processes them concurrently, making bulk downloads 10x faster.</li>
+                                    <li>Containerized and deployed an internal monitoring dashboard with Podman and Kubernetes.</li>
+                                    <li>Standardized deployment and configuration of internal services with reusable Helm charts.</li>
+                                </ul>
+                                <p class="card-tech">Rust &middot; Podman &middot; Kubernetes &middot; Helm</p>
+                            </div>
                         </div>
                     </div>
                     <div class="holographic-container">
                         <div class="holographic-card">
-                            <h4>&#9881; Systems </h4>
-                            <p>Linux, AWS, Kubernetes, Docker</p>
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <img class="company-logo" src="images/mitre.png" alt="MITRE logo">
+                                    <div>
+                                        <h4>MITRE</h4>
+                                        <p class="card-role">ML Tech Lead &middot; App Dev Club @ UMD</p>
+                                    </div>
+                                </div>
+                                <ul class="card-points">
+                                    <li>Led development of an AI assistant for multi-turn malware analysis in collaboration with MITRE.</li>
+                                    <li>Streamlined threat detection for user-uploaded files by building a chatbot with RAG using Elasticsearch and FastAPI.</li>
+                                </ul>
+                                <p class="card-tech">Ollama &middot; Llama 3 &middot; LangChain &middot; Elasticsearch &middot; FastAPI</p>
+                            </div>
                         </div>
                     </div>
                     <div class="holographic-container">
                         <div class="holographic-card">
-                            <h4>&#128247; Computer Vision</h4>
-                            <p>Prev. @ UMD RAAS Lab doing 3D scene reconstruction using 
-                                Gaussian Splats, NeRFs, OpenCV
-                            </p>
+                            <div class="card-content">
+                                <div class="card-header">
+                                    <img class="company-logo" src="images/umd.png" alt="University of Maryland RAAS Lab logo">
+                                    <div>
+                                        <h4>UMD RAAS Lab</h4>
+                                        <p class="card-role">ML Research Assistant &middot; Nov 2024 &ndash; May 2025 &middot; College Park, MD</p>
+                                    </div>
+                                </div>
+                                <ul class="card-points">
+                                    <li>Enabled autonomous 3D scene exploration for an AI agent by implementing a next-best-view selection algorithm in PyTorch.</li>
+                                    <li>Streamlined dataset curation for image-based modeling algorithms by creating Python scripts to compile images from photorealistic virtual environments.</li>
+                                    <li>Improved observability of neural rendering model training by building TensorFlow dashboards to track model performance.</li>
+                                </ul>
+                                <p class="card-tech">PyTorch &middot; TensorFlow &middot; Python</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,17 +119,11 @@
             <iframe src="images/Kevin_Chong_Resume.pdf" title="Embedded PDF Viewer">
                 <p>Your browser does not support PDFs. You can <a href="images/Kevin_Chong_Resume.pdf">download the PDF</a> instead.</p>
             </iframe>
-            <h4 class="center-text">Previously Worked With</h4>
-            <div class="img-container">
-                <a href="https://www.linkedin.com/company/visalaw-ai/"><img src="images/visalaw.png" alt="Visalaw.ai"></a>
-                <a href="https://www.linkedin.com/company/knack-works-inc./"><img src="images/knackworks.png" alt="Knack Works, Inc."></a>
-                <a href="https://www.linkedin.com/company/app-development-club/"><img src="images/mitre.png" alt="mitre"></a>
-            </div>
         </div>
 
         <script>
             function copyEmail() {
-                var textToCopy = "kevin.chong147@gmail.com";
+                var textToCopy = "kevinhc698@gmail.com";
 
                 if (navigator.clipboard && window.isSecureContext) {
                     navigator.clipboard.writeText(textToCopy).then(function () {
